@@ -12,15 +12,15 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @RedisHash("User")
 public class User {
-
+//user
 @Id
-public String id;
+public String Id;
 	
-public String name_user;
-public String id_document;
-public String name_document;
-public String nro_phone;
-public String imei_phone;
+public String NameUser;
+public String IdDocument;
+public String NameDocument;
+public String NroPhone;
+public String ImeiPhone;
 public String Email;
 
 }
